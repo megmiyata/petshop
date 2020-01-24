@@ -10,6 +10,6 @@ class Pet extends Model
     // protected $table = "pet";
 
     public function owner() {
-        return $this->belongsTo('App\Ownser', 'owner_id', 'id');
+        return $this->belongsTo('App\Owner', 'owner_id', 'id');
     }
 }

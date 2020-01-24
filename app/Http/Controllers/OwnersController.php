@@ -12,4 +12,6 @@ class OwnersController extends Controller
         $owners = \App\Owner::all();
         return view('owner', compact('owners'));
     }
+
+    
 }
